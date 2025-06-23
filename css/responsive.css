@@ -1,0 +1,1774 @@
+/* =========================SM Device Start========================== */
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+	/* ====================Navbar Starting====================== */
+	nav {
+		padding-top: 10px !important;
+	}
+
+	.bx {
+		color: white;
+		font-size: 40px;
+	}
+
+	.offcanvas {
+		max-width: 60%;
+		width: 60%;
+		transition: all 300ms ease-in-out;
+	}
+
+	.navbar-toggler {
+		padding: 5px;
+	}
+
+	.offcanvas-header {
+		background-color: #2B3035;
+	}
+
+	.offcanvas-header h5 img {
+		width: 90px;
+	}
+
+	.offcanvas-header .btn-close {
+		margin-left: 46px;
+		background-color: white;
+		font-size: 15px;
+	}
+
+	.offcanvas-body {
+		background-color: #2B3035;
+	}
+
+	.offcanvas-title {
+		color: white;
+	}
+
+	.bookButton {
+		margin-top: 30px;
+	}
+
+	.bookButton a {
+		padding: 12px 22px;
+		font-size: 12px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.navbar-nav li a {
+		padding: 0;
+	}
+
+	.dropdown-menu li a {
+		padding: 0px 10px;
+	}
+
+	/* ====================Navbar Ending============--=========== */
+
+	/* ====================Banner Section Starting=============== */
+	#banner {
+		transform: translateY(111px);
+	}
+
+	.banner_text h2 {
+		font-size: 42px;
+		margin-bottom: 20px;
+	}
+
+	.banner_text h1 {
+		font-size: 46px;
+	}
+
+	.banner_text span p {
+		font-size: 11px;
+		letter-spacing: 2px;
+		padding: 20px 0px;
+	}
+
+	.white_line {
+		padding: 0px;
+	}
+
+	.dis320 {
+		display: none;
+	}
+
+	.subtract_1:hover {
+		transform: scale(1.03);
+		margin-top: 0px;
+	}
+
+	.banner_text h2 {
+		font-size: 42px;
+		margin-bottom: 20px;
+	}
+
+	.banner_text h1 {
+		font-size: 46px;
+	}
+
+	.banner_text span p {
+		font-size: 13px;
+		letter-spacing: 2px;
+		padding: 20px 20px;
+	}
+
+	.white_line {
+		padding: 0px;
+	}
+
+	.banner-card {
+		gap: 27px;
+		margin-left: 2px !important;
+		flex-wrap: wrap;
+		margin-top: -65px !important;
+	}
+
+	.dis320 {
+		display: none;
+	}
+
+	.subtract_1:hover {
+		transform: scale(1.03);
+		margin-top: 0px;
+	}
+
+	.container .glass {
+		position: relative;
+		width: 96%;
+		height: 335px;
+		background: #ff0011;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		transition: 0.5s;
+		border-radius: 10px;
+		backdrop-filter: blur(10px);
+		transform: rotate(0deg);
+
+		img {
+			width: 70px;
+		}
+	}
+
+	.glass p {
+		width: 70%;
+		font-size: 15px;
+	}
+
+	.container .glass::before {
+		content: none;
+	}
+
+	.banner_cards:hover .glass {
+		margin: 0;
+	}
+
+	.banner_cards {
+		margin-top: 222px;
+	}
+
+	#nav_and_banner {
+		background-image: url(../images/slider_image01-1.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 800px;
+		animation: backgroundMove ease-in-out 20s infinite;
+		background-position: -300px;
+	}
+
+	@keyframes backgroundMove {
+		0% {
+			background-position: -300px;
+		}
+
+		50% {
+			background-position: -950px;
+		}
+
+		100% {
+			background-position: -300px;
+		}
+	}
+
+	/* ====================Banner Section Ending=================== */
+	/* =====================Our Burger Starting=================== */
+	#burger {
+		margin-top: 900PX;
+		height: 1930px;
+	}
+
+	/* =====================Our Burger Ending=================== */
+
+	/* =====================Slider Starting=================== */
+	.food_slider_header {
+		h2 {
+			font-size: 46px;
+			max-width: 280px;
+		}
+	}
+
+	.arrows {
+		position: absolute;
+		right: 40%;
+		bottom: -80px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: var(--brand_color);
+		transition: all 500ms ease-in-out;
+
+	}
+
+	.prr {
+		left: 40%;
+		bottom: -80px;
+		width: 42px;
+		height: 42px;
+		border: 1px solid #42454A;
+		border-radius: 50%;
+		font-size: 18px;
+	}
+
+	.nrr {
+		right: 28%;
+		width: 42px;
+		height: 42px;
+		bottom: -80px;
+		border: 1px solid #42454A;
+		border-radius: 50%;
+		font-size: 18px;
+	}
+
+	.arrows:hover {
+		background-color: #42454A;
+		border: none;
+		color: white;
+		transform: scale(1.1);
+	}
+
+	.review_card:hover {
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	}
+
+	.slick-dots {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+		transition: all 300ms ease-in-out;
+
+	}
+
+	.slick-dots li button {
+		font-size: 0;
+		height: 11px;
+		width: 11px;
+		border-radius: 50%;
+		outline: none;
+		border: none;
+		background-color: #1C2123;
+		transition: all 300ms ease-in-out;
+	}
+
+	.slick-dots .slick-active button {
+		background-color: #CF0000;
+	}
+
+	.food_slider {
+		& .item_1 {
+			& .item_image {
+				width: 100%;
+				height: 280px;
+			}
+		}
+	}
+
+	/* =====================Slider Ending=================== */
+
+
+	/* =====================Event Section Starting================ */
+	#event {
+		padding-top: 111px;
+	}
+
+	.event_header h5 {
+		font-size: 20px;
+		letter-spacing: 10px;
+		margin-bottom: 25px;
+	}
+
+	.details h2 {
+		font-size: 22px;
+	}
+
+	.details p {
+		margin-top: 22px;
+		font-size: 15px;
+	}
+
+	.event_details2 {
+		margin-top: 10px !important;
+	}
+
+	/* =====================Event Section Ending================= */
+
+	/* =====================Food Gallery Starting================ */
+	.gallery_header span p {
+		font-size: 30px;
+	}
+
+	.food_gallery_and_about {
+		display: flex;
+		gap: 10px;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+
+	/* =====================Food Gallery Ending================== */
+
+	/* ===================Reserve Section Starting============== */
+	#reserve {
+		padding-top: 30px;
+	}
+
+	.reserve_row {
+		background: linear-gradient(rgba(59, 58, 58, 0.65)), url(../images/reserved.jpg);
+	}
+
+	.reserve_img img {
+		width: 100%;
+		display: none;
+	}
+
+	.reserve_info {
+		padding-left: 35px;
+		padding-right: 25px;
+	}
+
+	.reserve_info h2 {
+		font-size: 24px;
+		color: white;
+		padding-top: 35px;
+		padding-bottom: 30px;
+	}
+
+	.reserve_info input {
+		margin-bottom: 25px;
+		padding: 12px 15px;
+		background-color: white;
+	}
+
+	.reserve_info a {
+		margin-top: 10px;
+		;
+		padding: 16px 20px;
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+
+	/* =====================Reserve Section Ending================ */
+
+	/* ==========================Footer Starting=================== */
+	footer {
+		margin-top: 65px;
+		height: 100%;
+		padding: 20px 0px;
+	}
+
+	.row_1 p {
+		padding-top: 30px;
+	}
+
+	.footer_row {
+		padding-left: 4px;
+		padding-top: 30px;
+		text-align: center;
+	}
+
+	.footer_row h2::after {
+		left: 25%;
+	}
+
+	.footer_navLinks {
+		padding-left: 0px;
+		text-align: center;
+		margin-top: 32px;
+	}
+
+	.footer_navLinks h2::after {
+		width: 50%;
+		left: 25%;
+	}
+
+	.footer_icons {
+		margin-top: 25px;
+	}
+
+	.footer_navLinks .footer_icons {
+		gap: 5px;
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.bx {
+		font-size: 27px;
+	}
+
+	.footer_input input {
+		padding: 13px 107px 14px 13px;
+		width: 100%;
+	}
+
+	.footer_navLinks button {
+		margin-top: 18px;
+		padding: 9px 0;
+		font-size: 20px;
+		width: 100%;
+	}
+
+	.copyright h2 {
+		font-size: 18px;
+	}
+
+	/* ==========================Footer Ending====================== */
+
+}
+
+/* =========================SM Device End========================== */
+
+/* =========================MD Device Start========================== */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/* ====================Navbar Starting====================== */
+	nav {
+		padding-top: 10px !important;
+	}
+
+	.navbar-toggler .bx {
+		font-size: 40px;
+		color: white;
+	}
+
+	.offcanvas {
+		max-width: 40%;
+		transition: all 300ms ease-in-out;
+	}
+
+	.navbar-toggler {
+		padding: 5px;
+	}
+
+	.offcanvas-header {
+		background-color: #2B3035;
+	}
+
+	.offcanvas-header h5 img {
+		width: 120px;
+	}
+
+	.offcanvas-header .btn-close {
+		margin-left: 46px;
+		background-color: white;
+		font-size: 15px;
+	}
+
+	.offcanvas-body {
+		background-color: #2B3035;
+	}
+
+	.offcanvas-title {
+		color: white;
+	}
+
+	.bookButton {
+		margin-top: 30px;
+	}
+
+	.bookButton a {
+		padding: 12px 52px;
+		font-size: 14px;
+	}
+
+	.navbar-nav li a {
+		padding: 0;
+	}
+
+	.dropdown-menu li a {
+		padding: 0px 10px;
+	}
+
+	/* ====================Navbar Ending============--=========== */
+
+	/* ====================Banner Section Starting=============== */
+	#banner {
+		transform: translateY(111px);
+	}
+
+	#banner .container,
+	.container-sm {
+		max-width: none;
+	}
+
+	.banner_text h2 {
+		font-size: 42px;
+		margin-bottom: 20px;
+	}
+
+	.banner_text h1 {
+		font-size: 46px;
+	}
+
+	.banner_text span p {
+		font-size: 13px;
+		letter-spacing: 2px;
+		padding: 20px 20px;
+	}
+
+	.white_line {
+		padding: 0px;
+	}
+
+	.banner-card {
+		gap: 27px;
+		margin-left: 2px !important;
+		flex-wrap: nowrap;
+		margin-top: -65px !important;
+
+		.col-lg-3 {
+			width: 29%;
+		}
+	}
+
+	.dis320 {
+		display: none;
+	}
+
+	.subtract_1:hover {
+		transform: scale(1.03);
+		margin-top: 0px;
+	}
+
+	.container .glass {
+		position: relative;
+		width: 175px;
+		height: 265px;
+		background: #ff0011;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		transition: 0.5s;
+		border-radius: 10px;
+		backdrop-filter: blur(10px);
+		transform: rotate(0deg);
+
+		img {
+			width: 50px;
+		}
+	}
+
+	.glass h2 {
+		margin-top: 0px;
+		height: 48px;
+		font-size: 17px;
+		padding: 12px 0;
+	}
+
+	.glass p {
+		width: 100%;
+		margin-top: 5px;
+		font-size: 13px;
+	}
+
+	.glass a {
+		margin-top: 9px;
+		padding: 10px 28px;
+		font-size: 10px;
+	}
+
+	.container .glass::before {
+		content: none;
+	}
+
+	.banner_cards:hover .glass {
+		margin: 0;
+	}
+
+	.banner_cards {
+		margin-top: 180px;
+	}
+
+	#nav_and_banner {
+		background-image: url(../images/slider_image01-1.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 633px;
+		animation: backgroundMove ease-in-out 20s infinite;
+		background-position: -300px;
+	}
+
+	@keyframes backgroundMove {
+		0% {
+			background-position: 0px;
+		}
+
+		50% {
+			background-position: -400px;
+		}
+
+		100% {
+			background-position: 0px;
+		}
+	}
+
+	/* ====================Banner Section Ending=================== */
+	/* =====================Our Burger Starting=================== */
+	#burger {
+		margin-top: 200px;
+		height: 1800px;
+	}
+
+	.burger_header {
+		margin-top: 40px;
+	}
+
+	/* =====================Our Burger Ending=================== */
+
+	/* =====================Slider Starting=================== */
+	.food_slider_header {
+		h2 {
+			font-size: 46px;
+			max-width: 280px;
+		}
+	}
+
+	.arrows {
+		position: absolute;
+		right: 40%;
+		bottom: -80px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: var(--brand_color);
+		transition: all 500ms ease-in-out;
+
+	}
+
+	.prr {
+		left: 40%;
+		bottom: -80px;
+		width: 42px;
+		height: 42px;
+		border: 1px solid #42454A;
+		border-radius: 50%;
+		font-size: 18px;
+	}
+
+	.nrr {
+		right: 35%;
+		width: 42px;
+		height: 42px;
+		bottom: -80px;
+		border: 1px solid #42454A;
+		border-radius: 50%;
+		font-size: 18px;
+	}
+
+	.arrows:hover {
+		background-color: #42454A;
+		border: none;
+		color: white;
+		transform: scale(1.1);
+	}
+
+	.review_card:hover {
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	}
+
+	.slick-dots {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+		transition: all 300ms ease-in-out;
+
+	}
+
+	.slick-dots li button {
+		font-size: 0;
+		height: 11px;
+		width: 11px;
+		border-radius: 50%;
+		outline: none;
+		border: none;
+		background-color: #1C2123;
+		transition: all 300ms ease-in-out;
+	}
+
+	.slick-dots .slick-active button {
+		background-color: #CF0000;
+	}
+
+	.food_slider {
+		& .item_1 {
+			& .item_image {
+				width: 100%;
+				height: 410px;
+			}
+		}
+	}
+
+	/* =====================Slider Ending=================== */
+
+
+	/* =====================Event Section Starting================ */
+	#event {
+		padding-top: 111px;
+	}
+
+	.event_header h5 {
+		font-size: 20px;
+		letter-spacing: 10px;
+		margin-bottom: 25px;
+	}
+
+	.details h2 {
+		font-size: 22px;
+	}
+
+	.details p {
+		margin-top: 22px;
+		font-size: 15px;
+	}
+
+	.event_details2 {
+		margin-top: 10px !important;
+	}
+
+	/* =====================Event Section Ending================= */
+
+	/* =====================Food Gallery Starting================ */
+	.gallery_header span p {
+		font-size: 30px;
+	}
+
+	.food_gallery_and_about {
+		display: flex;
+		gap: 10px;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+
+	/* =====================Food Gallery Ending================== */
+
+	/* ===================Reserve Section Starting============== */
+	#reserve {
+		padding-top: 30px;
+	}
+
+	.reserve_row {
+		background: linear-gradient(rgba(59, 58, 58, 0.65)), url(../images/reserved.jpg);
+	}
+
+	.reserve_img img {
+		width: 100%;
+		display: none;
+	}
+
+	.reserve_info {
+		padding-left: 35px;
+		padding-right: 25px;
+	}
+
+	.reserve_info h2 {
+		font-size: 24px;
+		color: white;
+		padding-top: 35px;
+		padding-bottom: 30px;
+	}
+
+	.reserve_info input {
+		margin-bottom: 25px;
+		padding: 12px 15px;
+		background-color: white;
+	}
+
+	.reserve_info a {
+		margin-top: 10px;
+		;
+		padding: 16px 20px;
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+
+	/* =====================Reserve Section Ending================ */
+
+	/* ==========================Footer Starting=================== */
+	footer {
+		margin-top: 65px;
+		height: 100%;
+		padding: 20px 0px;
+	}
+
+	.row_1 p {
+		padding-top: 30px;
+	}
+
+	.footer_row {
+		padding-left: 4px;
+		padding-top: 30px;
+		text-align: center;
+	}
+
+	.footer_row h2::after {
+		left: 25%;
+	}
+
+	.footer_navLinks {
+		padding-left: 0px;
+		text-align: center;
+		margin-top: 32px;
+	}
+
+	.footer_navLinks h2::after {
+		width: 50%;
+		left: 25%;
+	}
+
+	.footer_icons {
+		margin-top: 25px;
+	}
+
+	.footer_navLinks .footer_icons {
+		gap: 49px;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+	.bx {
+		font-size: 27px;
+	}
+
+	.footer_input input {
+		padding: 13px 107px 14px 13px;
+		width: 100%;
+	}
+
+	.footer_navLinks button {
+		margin-top: 18px;
+		padding: 9px 0;
+		font-size: 20px;
+		width: 100%;
+	}
+
+	.copyright h2 {
+		font-size: 18px;
+	}
+
+	/* ==========================Footer Ending====================== */
+
+}
+
+/* =========================MD Device End========================== */
+
+/* =========================LG Device Start========================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/* ====================Navbar Starting====================== */
+	nav {
+		padding-top: 10px !important;
+	}
+
+	.navbar-toggler .bx {
+		font-size: 40px;
+		color: white;
+	}
+
+	.offcanvas {
+		max-width: 40%;
+		transition: all 300ms ease-in-out;
+	}
+
+	.navbar-toggler {
+		padding: 5px;
+	}
+
+	.offcanvas-header {
+		background-color: #2B3035;
+	}
+
+	.offcanvas-header h5 img {
+		width: 120px;
+	}
+
+	.offcanvas-header .btn-close {
+		margin-left: 46px;
+		background-color: white;
+		font-size: 15px;
+	}
+
+	.offcanvas-body {
+		background-color: #2B3035;
+	}
+
+	.offcanvas-title {
+		color: white;
+	}
+
+	.bookButton {
+		margin-top: 30px;
+	}
+
+	.bookButton a {
+		padding: 12px 52px;
+		font-size: 14px;
+	}
+
+	.navbar-nav li a {
+		padding: 0;
+	}
+
+	.dropdown-menu li a {
+		padding: 0px 10px;
+	}
+
+	/* ====================Navbar Ending============--=========== */
+
+	/* ====================Banner Section Starting=============== */
+	#banner {
+		transform: translateY(111px);
+	}
+
+	.banner_text h2 {
+		font-size: 42px;
+		margin-bottom: 20px;
+	}
+
+	.banner_text h1 {
+		font-size: 46px;
+	}
+
+	.banner_text span p {
+		font-size: 13px;
+		letter-spacing: 2px;
+		padding: 20px 20px;
+	}
+
+	.white_line {
+		padding: 0px;
+	}
+
+	.banner-card {
+		gap: 27px;
+		margin-left: 2px !important;
+		flex-wrap: nowrap;
+		margin-top: -65px !important;
+
+		.col-lg-3 {
+			width: 29%;
+		}
+	}
+
+	.dis320 {
+		display: none;
+	}
+
+	.subtract_1:hover {
+		transform: scale(1.03);
+		margin-top: 0px;
+	}
+
+	.container .glass {
+		position: relative;
+		width: 215px;
+		height: 300px;
+		background: #ff0011;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		transition: 0.5s;
+		border-radius: 10px;
+		backdrop-filter: blur(10px);
+		transform: rotate(0deg);
+
+		img {
+			width: 80px;
+		}
+	}
+
+	.glass h2 {
+		margin-top: 0px;
+		height: 48px;
+		font-size: 17px;
+		padding: 12px 0;
+	}
+
+	.glass p {
+		width: 100%;
+		margin-top: 5px;
+		font-size: 13px;
+	}
+
+	.glass a {
+		margin-top: 9px;
+		padding: 10px 28px;
+		font-size: 10px;
+	}
+
+	.container .glass::before {
+		content: none;
+	}
+
+	.banner_cards:hover .glass {
+		margin: 0;
+	}
+
+	.banner_cards {
+		margin-top: 180px;
+	}
+
+	#nav_and_banner {
+		background-image: url(../images/slider_image01-1.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 633px;
+		animation: backgroundMove ease-in-out 20s infinite;
+		background-position: -300px;
+	}
+
+	@keyframes backgroundMove {
+		0% {
+			background-position: 0px;
+		}
+
+		50% {
+			background-position: -400px;
+		}
+
+		100% {
+			background-position: 0px;
+		}
+	}
+
+	/* ====================Banner Section Ending=================== */
+	/* =====================Our Burger Starting=================== */
+	#burger {
+		margin-top: 200px;
+		height: 1800px;
+	}
+
+	.burger_header {
+		margin-top: 40px;
+	}
+
+	/* =====================Our Burger Ending=================== */
+
+	/* =====================Slider Starting=================== */
+	.food_slider_header {
+		h2 {
+			font-size: 46px;
+			max-width: 280px;
+		}
+	}
+
+	.arrows {
+		position: absolute;
+		right: 40%;
+		bottom: -80px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: var(--brand_color);
+		transition: all 500ms ease-in-out;
+
+	}
+
+	.prr {
+		left: 40%;
+		bottom: -80px;
+		width: 42px;
+		height: 42px;
+		border: 1px solid #42454A;
+		border-radius: 50%;
+		font-size: 18px;
+	}
+
+	.nrr {
+		right: 35%;
+		width: 42px;
+		height: 42px;
+		bottom: -80px;
+		border: 1px solid #42454A;
+		border-radius: 50%;
+		font-size: 18px;
+	}
+
+	.arrows:hover {
+		background-color: #42454A;
+		border: none;
+		color: white;
+		transform: scale(1.1);
+	}
+
+	.review_card:hover {
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	}
+
+	.slick-dots {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+		transition: all 300ms ease-in-out;
+
+	}
+
+	.slick-dots li button {
+		font-size: 0;
+		height: 11px;
+		width: 11px;
+		border-radius: 50%;
+		outline: none;
+		border: none;
+		background-color: #1C2123;
+		transition: all 300ms ease-in-out;
+	}
+
+	.slick-dots .slick-active button {
+		background-color: #CF0000;
+	}
+
+	.food_slider {
+		& .item_text {
+			& p {
+				font-family: "Rubik", sans-serif;
+				color: #2C2C2C;
+				font-size: 16px;
+				max-width: 306px;
+			}
+
+			& h2 {
+				color: #2C2C2C;
+				font-family: "Rubik", sans-serif;
+				font-size: 26px;
+			}
+		}
+	}
+
+	/* =====================Slider Ending=================== */
+
+
+	/* =====================Event Section Starting================ */
+	#event {
+		padding-top: 111px;
+	}
+
+	.event_details .col-lg-4 {
+		width: 50%;
+	}
+
+	.event_header h5 {
+		font-size: 20px;
+		letter-spacing: 10px;
+		margin-bottom: 25px;
+	}
+
+	.details h2 {
+		font-size: 22px;
+	}
+
+	.details p {
+		margin-top: 22px;
+		font-size: 15px;
+	}
+
+	.event_details2 {
+		margin-top: 10px !important;
+	}
+
+	/* =====================Event Section Ending================= */
+
+	/* =====================Food Gallery Starting================ */
+	.gallery_header span p {
+		font-size: 30px;
+	}
+
+	.food_gallery_and_about {
+		display: flex;
+		gap: 10px;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+
+	/* =====================Food Gallery Ending================== */
+
+	/* ===================Reserve Section Starting============== */
+	#reserve {
+		padding-top: 30px;
+	}
+
+	.reserve_row {
+		background: linear-gradient(rgba(59, 58, 58, 0.65)), url(../images/reserved.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.reserve_img img {
+		width: 100%;
+		display: none;
+	}
+
+	.reserve_info {
+		padding-left: 35px;
+		padding-right: 25px;
+	}
+
+	.reserve_info h2 {
+		font-size: 24px;
+		color: white;
+		padding-top: 35px;
+		padding-bottom: 30px;
+	}
+
+	.reserve_info input {
+		margin-bottom: 25px;
+		padding: 12px 15px;
+		background-color: white;
+	}
+
+	.reserve_info a {
+		margin-top: 10px;
+		;
+		padding: 16px 20px;
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+
+	/* =====================Reserve Section Ending================ */
+
+	/* ==========================Footer Starting=================== */
+	footer {
+		margin-top: 65px;
+		height: 100%;
+		padding: 20px 0px;
+	}
+
+	.row_1 p {
+		padding-top: 30px;
+	}
+
+	.footer_row {
+		padding-left: 4px;
+		padding-top: 30px;
+		text-align: center;
+	}
+
+	.footer_row h2::after {
+		left: 25%;
+	}
+
+	.footer_navLinks {
+		padding-left: 0px;
+		text-align: center;
+		margin-top: 32px;
+	}
+
+	.footer_navLinks h2::after {
+		width: 50%;
+		left: 25%;
+	}
+
+	.footer_icons {
+		margin-top: 25px;
+	}
+
+	.footer_navLinks .footer_icons {
+		gap: 49px;
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.bx {
+		font-size: 27px;
+	}
+
+	.footer_input input {
+		padding: 13px 107px 14px 13px;
+		width: 100%;
+	}
+
+	.footer_navLinks button {
+		margin-top: 18px;
+		padding: 9px 0;
+		font-size: 20px;
+		width: 100%;
+	}
+
+	.copyright h2 {
+		font-size: 18px;
+	}
+
+	/* ==========================Footer Ending====================== */
+
+}
+
+/* =========================LG Device End========================== */
+
+/* =========================XL Device Start======================== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/* ====================Navbar Starting====================== */
+	nav {
+		padding-top: 20px !important;
+	}
+
+	/* ====================Navbar Ending============--=========== */
+
+	/* ====================Banner Section Starting=============== */
+	#banner {
+		transform: translateY(170px);
+	}
+
+	.banner_text h2 {
+		font-size: 45px;
+	}
+
+	.banner_text h1 {
+		font-size: 56px;
+	}
+
+	.banner_text span p {
+		font-size: 13px;
+		letter-spacing: 2px;
+		padding: 20px 20px;
+	}
+
+	.white_line {
+		padding: 0px;
+	}
+
+	.banner-card {
+		gap: 27px;
+		margin-left: 25px !important;
+		margin-top: -65px !important;
+	}
+
+	.dis320 {
+		display: none;
+	}
+
+	.container .glass {
+		position: relative;
+		width: 257px;
+		height: 370px;
+
+		img {
+			width: 80px;
+		}
+	}
+
+	.glass h2 {
+		width: 101%;
+	}
+
+	.glass p {
+		width: 95%;
+		margin-top: 8px;
+		font-size: 14px;
+	}
+
+	.glass a {
+		margin-top: 19px;
+		padding: 16px 28px;
+		font-size: 13px;
+	}
+
+	.banner_cards {
+		margin-top: 220px;
+	}
+
+	#nav_and_banner {
+		height: 753px;
+		background-position: center;
+	}
+
+	.banner-card .col-lg-3 {
+		width: 31%;
+	}
+
+	.container .glass {
+		transform: none;
+	}
+
+	/* ====================Banner Section Ending=================== */
+	/* =====================Our Burger Starting=================== */
+	#burger {
+		margin-top: 333px;
+	}
+
+	.burger_header {
+		margin-top: 40px;
+	}
+
+	/* =====================Our Burger Ending=================== */
+
+	/* =====================Slider Starting=================== */
+	.food_slider_header {
+		h2 {
+			font-size: 46px;
+			max-width: 280px;
+		}
+	}
+
+	.arrows {
+		position: absolute;
+		right: 40%;
+		bottom: -80px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: var(--brand_color);
+		transition: all 500ms ease-in-out;
+
+	}
+
+	.prr {
+		left: 40%;
+		bottom: -80px;
+		width: 42px;
+		height: 42px;
+		border: 1px solid #42454A;
+		border-radius: 50%;
+		font-size: 18px;
+	}
+
+	.nrr {
+		right: 35%;
+		width: 42px;
+		height: 42px;
+		bottom: -80px;
+		border: 1px solid #42454A;
+		border-radius: 50%;
+		font-size: 18px;
+	}
+
+	.arrows:hover {
+		background-color: #42454A;
+		border: none;
+		color: white;
+		transform: scale(1.1);
+	}
+
+	.review_card:hover {
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	}
+
+	.slick-dots {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+		transition: all 300ms ease-in-out;
+
+	}
+
+	.slick-dots li button {
+		font-size: 0;
+		height: 11px;
+		width: 11px;
+		border-radius: 50%;
+		outline: none;
+		border: none;
+		background-color: #1C2123;
+		transition: all 300ms ease-in-out;
+	}
+
+	.slick-dots .slick-active button {
+		background-color: #CF0000;
+	}
+
+	.food_slider {
+		& .item_text {
+			& p {
+				font-family: "Rubik", sans-serif;
+				color: #2C2C2C;
+				font-size: 16px;
+				max-width: 306px;
+			}
+
+			& h2 {
+				color: #2C2C2C;
+				font-family: "Rubik", sans-serif;
+				font-size: 26px;
+			}
+		}
+	}
+
+	/* =====================Slider Ending=================== */
+
+
+	/* =====================Event Section Starting================ */
+	#event {
+		padding-top: 111px;
+	}
+
+	.event_details .col-lg-4 {
+		width: 33%;
+	}
+
+	.event_header h5 {
+		font-size: 20px;
+		letter-spacing: 10px;
+		margin-bottom: 25px;
+	}
+
+	.details h2 {
+		font-size: 22px;
+	}
+
+	.details p {
+		margin-top: 22px;
+		font-size: 14px;
+	}
+
+	.event_details2 {
+		margin-top: 10px !important;
+	}
+
+	/* =====================Event Section Ending================= */
+
+	/* =====================Food Gallery Starting================ */
+	.gallery_header span p {
+		font-size: 30px;
+	}
+
+	.food_gallery_and_about {
+		display: flex;
+		gap: 10px;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+
+	/* =====================Food Gallery Ending================== */
+
+	/* ===================Reserve Section Starting============== */
+	#reserve {
+		padding-top: 30px;
+	}
+
+	.reserve_row {
+		background: linear-gradient(rgba(59, 58, 58, 0.65)), url(../images/reserved.jpg);
+	}
+
+	.reserve_img img {
+		width: 100%;
+		display: none;
+	}
+
+	.reserve_info {
+		padding-left: 35px;
+		padding-right: 25px;
+	}
+
+	.reserve_info h2 {
+		font-size: 24px;
+		color: white;
+		padding-top: 35px;
+		padding-bottom: 30px;
+	}
+
+	.reserve_info input {
+		margin-bottom: 25px;
+		padding: 12px 15px;
+	}
+
+	.reserve_info a {
+		margin-top: 10px;
+		;
+		padding: 16px 20px;
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+
+	/* =====================Reserve Section Ending================ */
+
+	/* ==========================Footer Starting=================== */
+	footer {
+		margin-top: 65px;
+		height: 100%;
+		padding: 20px 0px;
+	}
+
+	.row_1 img {
+		width: 148px;
+	}
+
+	.row_1 p {
+		padding-top: 30px;
+	}
+
+	.footer_row {
+		padding-left: 4px;
+		padding-top: 30px;
+		text-align: center;
+	}
+
+	.footer_row h2::after {
+		left: 25%;
+	}
+
+	.footer_navLinks {
+		padding-left: 0px;
+		text-align: center;
+		margin-top: 32px;
+	}
+
+	.footer_navLinks h2::after {
+		width: 50%;
+		left: 25%;
+	}
+
+	.footer_icons {
+		margin-top: 25px;
+	}
+
+	.footer_navLinks .footer_icons {
+		gap: 49px;
+		row-gap: 20px;
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.bx {
+		font-size: 27px;
+	}
+
+	.footer_input input {
+		padding: 13px 107px 14px 13px;
+		width: 100%;
+	}
+
+	.footer_navLinks button {
+		margin-top: 18px;
+		padding: 9px 0;
+		font-size: 20px;
+		width: 100%;
+	}
+
+	.copyright h2 {
+		font-size: 18px;
+	}
+
+	/* ==========================Footer Ending====================== */
+
+}
+
+/* =========================XL Device End========================== */
+
+/* =========================XXL Device Start======================== */
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+	/* ====================Banner Section Starting=============== */
+	.banner-card {
+		gap: 74px;
+		margin-top: 99px !important;
+		margin-left: 62px !important;
+		transition: all 300ms ease-in-out;
+	}
+
+	/* ====================Banner Section Ending=================== */
+
+	/* ==========================Footer Starting=================== */
+	footer {
+		margin-top: 65px;
+		height: 100%;
+		padding: 20px 0px;
+	}
+
+	.row_1 img {
+		width: 148px;
+	}
+
+	.row_1 p {
+		padding-top: 30px;
+	}
+
+	.footer_row {
+		padding-left: 4px;
+		padding-top: 30px;
+		text-align: center;
+	}
+
+	.footer_row h2::after {
+		left: 25%;
+	}
+
+	.footer_navLinks {
+		padding-left: 0px;
+		text-align: center;
+		margin-top: 32px;
+	}
+
+	.footer_navLinks h2::after {
+		width: 50%;
+		left: 25%;
+	}
+
+	.footer_icons {
+		margin-top: 25px;
+	}
+
+	.footer_navLinks .footer_icons {
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.bx {
+		font-size: 27px;
+	}
+
+	.footer_input input {
+		padding: 13px 107px 14px 13px;
+		width: 100%;
+	}
+
+	.footer_navLinks button {
+		margin-top: 18px;
+		padding: 9px 0;
+		font-size: 20px;
+		width: 100%;
+	}
+
+	.copyright h2 {
+		font-size: 18px;
+	}
+
+	/* ==========================Footer Ending====================== */
+
+}
+
+/* =========================XXL Device End========================== */
