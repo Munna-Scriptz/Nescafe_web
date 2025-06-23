@@ -9,9 +9,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* ===================Common Css======================= */
-*{
-    scroll-behavior:smooth;
+* {
+    scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -24,9 +25,15 @@ body {
         background: #1C2123;
     }
 }
-.container, .container-lg, .container-md, .container-sm, .container-xl {
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
     max-width: 1340px;
 }
+
 /* ===================NavBar Starting=================== */
 #nav_and_banner {
     background-image: url(../images/slider_image01-1.jpg);
@@ -41,6 +48,7 @@ nav {
     padding-top: 25px !important;
     background-color: transparent;
 }
+
 /* ------Drop Down Css St------ */
 .navbar-nav li a {
     color: white !important;
@@ -298,6 +306,7 @@ nav {
     overflow: hidden;
 
 }
+
 .burger_header {
     margin-top: 80px;
 }
@@ -365,12 +374,15 @@ nav {
     padding-top: 200px;
     overflow: hidden;
 }
-#event .container{
+
+#event .container {
     overflow: hidden;
 }
-.AllEventDetails{
+
+.AllEventDetails {
     overflow: hidden;
 }
+
 .event_header {
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -440,6 +452,7 @@ nav {
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
 .food_slider_header {
     margin-bottom: 40px;
 
@@ -558,6 +571,7 @@ nav {
     font-family: "Acme", sans-serif;
     margin-bottom: 0px;
 }
+
 .food_text a {
     margin-top: 19px;
     background-color: #ED2433;
